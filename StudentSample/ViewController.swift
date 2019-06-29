@@ -10,11 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var BirtDate: UITextField!
+    @IBOutlet weak var LastName: UITextField!
+    @IBOutlet weak var FirstName: UITextField!
+    @IBOutlet weak var StudentId: UITextField!
+    @IBOutlet weak var EmailAddress: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
 }
+
+
 
